@@ -1,0 +1,15 @@
+{
+  "clearMocks": true,
+  "displayName": "e2e-tests",
+  "globals": {
+    "ts-jest": {
+      "diagnostics": false,
+      "tsconfig": "tsconfig.spec.json"
+    }
+  },
+  "moduleFileExtensions": ["ts", "js", "json"],
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "testMatch": ["./**/test/specs/*.spec.ts"],
+  "testTimeout": 50000
+}

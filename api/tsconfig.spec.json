@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "module": "es2022",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "baseUrl": "./",
+    "incremental": true,
+    "allowJs": true,
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+}
